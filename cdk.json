@@ -1,0 +1,10 @@
+{
+	"app": "python3 cdk/index.py",
+	"context": {
+		"aws-cdk:enableDiffNoFail": true,
+		"@aws-cdk/aws-iam:minimizePolicies": true,
+		"acknowledged-issue-numbers": [
+			21902
+		]
+	}
+}

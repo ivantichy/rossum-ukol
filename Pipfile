@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+# TODO use at least major.minor version here with ~
+[packages]
+requests = "*"
+fastapi = "*"
+mangum = "*"
+lxml = "*"
+
+# TODO use at least major.minor version here with ~
+[dev-packages]
+pytest = "*"
+black = "*"
+mypy = "*"
+pylint = "*"
+uvicorn = "*"
+requests_mock= "*"
+aws-cdk-lib = "*"
+constructs = "*"
+
+[requires]
+python_version = "3.12"
